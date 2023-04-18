@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tbip_congresso"
+version = "0.1.0"
+description = "Modelagem de pontos ideais baseados em discursos de parlamentares no Congresso Nacional usando TBIP."
+license = "LGPL-3.0-or-later"
+authors = ["Matheus Alves <matheusalves@copin.ufcg.edu.br>"]
+maintainers = ["Victor Vinícius <victor.vinicius.araujo@ccc.ufcg.edu.br>"]
+repository = "https://github.com/beabaparlamentar/tbip-congresso"
+keywords = ["congresso-nacional", "parlamentares", "tbip", "pontos-ideais"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+black = "^23.3.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
